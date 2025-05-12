@@ -1,17 +1,15 @@
 {
-  "name": "ponderada_husky",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "prepare": "husky install",
-    "build": "echo 'Simulando build...' && exit 0",
-    "lint": "echo 'Simulando lint...' && exit 0",
-    "test": "echo 'Simulando testes...' && exit 0"
-  },
   "devDependencies": {
     "husky": "^9.1.7"
   }
-}
+} 
 
+{
+  "scripts": {
+  "prepare": "husky install",
+  "build": "echo 'Simulando build...' && exit 0",
+  "lint": "echo 'Simulando lint...' && exit 0",
+  "test": "echo 'Simulando testes...' && exit 0"
+  }
+}
 

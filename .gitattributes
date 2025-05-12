@@ -20,8 +20,13 @@ Esta atividade teve como objetivo configurar hooks do Husky em um repositório G
 Pré-commit
 Ao realizar um commit com git commit -m "test: validando pre-commit", o Husky executou os comandos de build e lint. Ambos foram simulados com sucesso, impedindo o commit apenas em caso de erro.
 
+Print:
+
 Pré-push
 Ao executar git push, o hook de pré-push foi acionado, executando o comando npm test. O teste simulado foi concluído com sucesso, permitindo o envio das alterações ao repositório remoto.
+
+Print:
+
 
 ## Conclusão
 
